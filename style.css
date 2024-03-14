@@ -1,0 +1,255 @@
+body {
+  font-family: "system-ui", "Arial Narrow", Arial, sans-serif;
+}
+.navbar {
+  /* border: 1px solid black; */
+  padding: 8px 8px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.zomato-logo {
+  width: 120px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.gray-p {
+  color: gray;
+  border: 1px solid black;
+  width: 140px;
+}
+.input-field {
+  border: none;
+  font-size: 14px;
+  outline: none;
+  width: 160px;
+}
+.input-field-1 {
+  border: none;
+  font-size: 14px;
+  outline: none;
+  width: 300px;
+}
+.searchbar {
+  /* border: 1px solid black; */
+  padding: 8px;
+  box-shadow: 3px 3px 3px rgba(211, 211, 211, 0.39);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.searchbar-1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-right: 1px solid rgba(58, 58, 58, 0.397);
+  padding: 5px 10px;
+}
+.searchbar-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  color: rgba(73, 73, 73, 0.555);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section-two {
+  margin-left: 60px;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  width: 400px;
+  display: flex;
+  gap: 10px;
+}
+.para {
+  font-size: 13px;
+  color: gray;
+}
+.light-gray {
+  font-size: 13px;
+  color: rgba(129, 129, 129, 0.582);
+}
+.section-three {
+  padding-left: 70px; 
+  /* /this bring the section three to little bit center, so the content looks organized/ */
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-bottom: 1px solid rgba(107, 107, 107, 0.13);
+}
+.img {
+  width: 60px;
+  height: 55px;
+  background-color: rgba(210, 208, 208, 0.473);
+  padding: 12px;
+  border-radius: 50%;
+}
+.color-img {
+  background-color: rgba(255, 166, 0, 0.575);
+}
+.flex {
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+  /* border: 1px solid black; */
+  gap: 10px;
+}
+.flex p {
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+}
+.flex-special {
+  border-bottom: 2px solid rgb(240, 92, 106);
+}
+.filter-section {
+  display: flex;
+  gap: 10px;
+  padding-left: 50px;
+  margin-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.filter {
+  width: 90px;
+  height: 40px;
+  border: 1px solid rgba(75, 75, 75, 0.171);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: gray;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background-color: rgb(240, 92, 106);
+  width: fit-content;
+  border-radius: 4px;
+  color: white;
+  padding: 2px 6px;
+  height: 20px;
+}
+
+.filter-special {
+  width: 130px;
+  color: white;
+  background-color: rgb(240, 92, 106);
+}
+.heading {
+  padding-left: 50px;
+  font-size: 29px;
+  font-weight: 500;
+}
+.food-cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+.card {
+  background-color: rgba(243, 243, 243, 0.24);
+  width: 240px;
+  padding: 12px;
+  border-radius: 8px;
+}
+.food-img {
+  border-radius: 12px;
+  width: 100%;
+}
+.card-content {
+  padding: 6px;
+}
+.rating {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  width: 40px;
+  text-align: center;
+}
+.title {
+  margin-top: -20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desc {
+  margin-top: -20px;
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+}
+.price {
+  color: black;
+  font-weight: bold;
+}
+.footer {
+  /* width: 90%; */
+  padding: 40px 150px;
+  background-color: rgb(241, 241, 241);
+}
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.country-btn {
+  display: flex;
+  gap: 2px;
+  justify-content: space-between;
+  padding: 0px 5px;
+  border-radius: 8px;
+  align-items: center;
+  border: 1px solid rgb(87, 87, 87);
+  height: 30px;
+  width: 90px;
+}
+.flag-img {
+  width: 20px;
+  height: 15px;
+}
+.ln-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0px 5px;
+  border: 1px solid rgb(59, 59, 59);
+}
+.footer-flex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
